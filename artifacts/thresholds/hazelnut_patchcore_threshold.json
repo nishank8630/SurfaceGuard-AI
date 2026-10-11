@@ -1,0 +1,14 @@
+{
+  "category": "hazelnut",
+  "model_type": "patchcore",
+  "threshold": 5.229214763641357,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 17049,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 37.60478210000019
+  }
+}

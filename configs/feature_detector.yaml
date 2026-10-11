@@ -1,0 +1,20 @@
+# CNN Feature-Based Anomaly Detector (PatchCore-style)
+model:
+  type: "patchcore"
+  backbone: "resnet18"  # Fast and memory-efficient for CPU/GPU, or resnet50
+  pretrained: true
+  layers:
+    - "layer2"
+    - "layer3"
+  patch_size: 3
+  patch_stride: 1
+
+memory_bank:
+  sampling_ratio: 0.10  # Sample 10% of features for fast NN search (configurable: 0.01 - 0.25)
+  sampling_method: "coreset"  # "coreset" or "random"
+  chunk_size: 1024  # For chunked distance computation to prevent RAM/VRAM exhaustion
+
+anomaly_map:
+  gaussian_sigma: 4.0
+  kernel_size: 15
+  top_k_patches: 3  # Score aggregation parameter

@@ -1,0 +1,55 @@
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & dataset archives (DO NOT COMMIT)
+data/mvtec_ad/
+data/*.tar.xz
+data/*.tar.gz
+data/*.zip
+
+# Model weights & caches (feature banks and thresholds are committed for instant Streamlit Cloud deployment)
+artifacts/models/
+*.onnx
+
+# Evaluation outputs and logs
+results/runs/
+results/figures/
+results/reports/
+logs/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "category": "screw",
+  "model_type": "patchcore",
+  "threshold": 5.9186341667175295,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 13926,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 20.93682069999977
+  }
+}

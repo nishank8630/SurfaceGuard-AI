@@ -1,0 +1,14 @@
+{
+  "category": "pill",
+  "model_type": "patchcore",
+  "threshold": 6.0045712947845455,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 11622,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 15.671850200000335
+  }
+}

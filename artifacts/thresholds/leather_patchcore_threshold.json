@@ -1,0 +1,14 @@
+{
+  "category": "leather",
+  "model_type": "patchcore",
+  "threshold": 3.820760357379913,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 10700,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 27.8990746999998
+  }
+}

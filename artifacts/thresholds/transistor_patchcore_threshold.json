@@ -1,0 +1,14 @@
+{
+  "category": "transistor",
+  "model_type": "patchcore",
+  "threshold": 7.171035242080688,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 9318,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 16.933483400000114
+  }
+}

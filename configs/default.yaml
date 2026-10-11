@@ -1,0 +1,48 @@
+# SurfaceGuard AI Default Configuration
+project:
+  name: "SurfaceGuard AI"
+  seed: 42
+
+paths:
+  data_dir: "data/mvtec_ad"
+  artifacts_dir: "artifacts"
+  results_dir: "results"
+
+dataset:
+  categories:
+    - bottle
+    - cable
+    - capsule
+    - carpet
+    - grid
+    - hazelnut
+    - leather
+    - metal_nut
+    - pill
+    - screw
+    - tile
+    - toothbrush
+    - transistor
+    - wood
+    - zipper
+  image_size: [256, 256]
+  batch_size: 16
+  num_workers: 0  # Conservative default for Windows stability
+
+models:
+  default_method: "patchcore"
+
+evaluation:
+  val_split_ratio: 0.15  # Normal images reserved for threshold calibration
+  target_fpr: 0.05       # Target false positive rate on normal validation set
+  metrics:
+    - auroc
+    - average_precision
+    - f1_score
+    - pixel_auroc
+    - pixel_ap
+    - pixel_iou
+
+server:
+  host: "127.0.0.1"
+  port: 8000

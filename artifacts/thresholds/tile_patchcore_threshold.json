@@ -1,0 +1,14 @@
+{
+  "category": "tile",
+  "model_type": "patchcore",
+  "threshold": 6.253662819862367,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 10035,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 13.53930020000007
+  }
+}

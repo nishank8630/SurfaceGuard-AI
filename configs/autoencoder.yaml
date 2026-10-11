@@ -1,0 +1,20 @@
+# Convolutional Autoencoder Configuration
+model:
+  type: "autoencoder"
+  latent_dim: 128
+  base_channels: 32
+  input_channels: 3
+
+training:
+  epochs: 50
+  learning_rate: 0.001
+  batch_size: 16
+  weight_decay: 0.00001
+  loss_type: "l1_mse"  # Combination of L1 and MSE loss
+  l1_weight: 0.5
+  mse_weight: 0.5
+  early_stopping_patience: 10
+
+anomaly_map:
+  gaussian_sigma: 4.0
+  kernel_size: 15

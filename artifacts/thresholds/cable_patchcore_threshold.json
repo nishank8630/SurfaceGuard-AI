@@ -1,0 +1,14 @@
+{
+  "category": "cable",
+  "model_type": "patchcore",
+  "threshold": 6.564817714691162,
+  "metadata": {
+    "backbone": "resnet18",
+    "sampling_ratio": 0.05,
+    "sampling_method": "random",
+    "bank_vectors": 9779,
+    "feature_dim": 384,
+    "target_fpr": 0.01,
+    "elapsed_seconds": 22.529309300000023
+  }
+}

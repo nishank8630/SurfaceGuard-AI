@@ -1,0 +1,9 @@
+{
+  "category": "bottle",
+  "model_type": "autoencoder",
+  "threshold": 0.349239319562912,
+  "metadata": {
+    "epochs": 10,
+    "training_time_s": 149.72531549999985
+  }
+}
